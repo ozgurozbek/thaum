@@ -162,7 +162,7 @@ export default function MapOverlayContent() {
         />
         <Space wrap>
           <Button onClick={() => handleMapVisibility("Campuses")}><span>Campuses <CheckCircleOutlined /></span></Button>
-          <Tooltip title="Bottom left has the scale for the map with a single unit displaying a day in travel pace (8hrs)" color="#630436">
+          <Tooltip title="Bottom left has the scale for the map with a single unit displaying a day in travel pace (8hrs)" color="#d5ad32">
             <Button onClick={() => handleMapVisibility("Compass")}><span>Compass <CheckCircleFilled /></span></Button>
           </Tooltip>
           <Button onClick={() => handleMapVisibility("Continents")}><span>Continents <CheckCircleOutlined /></span></Button>
@@ -171,14 +171,14 @@ export default function MapOverlayContent() {
           <Button onClick={() => handleMapVisibility("Places")}><span>Places <CheckCircleOutlined /></span></Button>
           <Divider type="vertical" style={{ borderColor: "white" }} />
           <Button onClick={() => handleMapVisibility("Climates")}><span>Climate <ExclamationCircleOutlined /></span></Button>
-          <Tooltip title="Fear 😱, Joy 😊, Sorrow 😔, Love 😍, Anger 😠, Hope 🥺, Anxiety 😵, Awe 😨, Desire 😳, Abandonment 😒" color="#630436">
+          <Tooltip title="Fear 😱, Joy 😊, Sorrow 😔, Love 😍, Anger 😠, Hope 🥺, Anxiety 😵, Awe 😨, Desire 😳, Abandonment 😒" color="#d5ad32">
             <Button onClick={() => handleMapVisibility("Echoes")}><span>Emotional Echoes <ExclamationCircleFilled /></span></Button>
           </Tooltip>
-          <Tooltip title="See Map Legend for more detail" color="#630436">
+          <Tooltip title="See Map Legend for more detail" color="#d5ad32">
             <Button onClick={() => handleMapVisibility("Resources")}><span>Map Legend <ExclamationCircleFilled /></span></Button>
           </Tooltip>
           <Button onClick={() => handleMapVisibility("Steamcart")}><span>Steamcart <ExclamationCircleOutlined /></span></Button>
-          <Tooltip title="Red: Woven Route, Blue: Wavekeep Route, Purple: Elkian Route" color="#630436">
+          <Tooltip title="Red: Woven Route, Blue: Wavekeep Route, Purple: Elkian Route" color="#d5ad32">
             <Button onClick={() => handleMapVisibility("Trade")}><span>Trade Routes <ExclamationCircleFilled /></span></Button>
           </Tooltip>
           <Button onClick={() => handleMapVisibility("Travel")}><span>Travel Routes <ExclamationCircleOutlined /></span></Button>

@@ -4,7 +4,7 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Map Overlay",
   description:
-    "Explore routes and unlock the mysteries of Teothe by overlaying different maps, revealing alternate maps and travel guides.",
+    "Explore the map of Thaum.",
 };
 
 // Dynamically import the client-only component so it doesn't cry about "window" property in client? Why even?

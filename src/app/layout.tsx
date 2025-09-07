@@ -9,11 +9,11 @@ const inter = Inter({ subsets: ["latin"] });
 // This gets overridden by the metadata on pages but is the default
 export const metadata: Metadata = {
   title: {
-    template: "Teothe | %s",
-    default: "Teothe",
+    template: "Thaum | %s",
+    default: "Thaum",
   },
   description:
-    "Dive into Teothe, a rich 5th Edition Dungeons & Dragons campaign setting offering endless adventures on the Material Plane. Discover its lore, creatures, and mysteries.",
+    "Thaum; a 5th Edition Dungeons & Dragons campaign setting.",
 };
 
 /**
@@ -37,9 +37,9 @@ export default function RootLayout({
           sizes="192x192"
           href="/PWA/icon-192-192.png"
         />
-        <meta name="theme-color" content="#630436" />
+        <meta name="theme-color" content="#d5ad32" />
         <meta name="apple-mobile-web-app-status-bar" content="#90cdf4" />
-        <link rel="apple-touch-icon" href="/dragon.png" />
+        <link rel="apple-touch-icon" href="/thaumf.png" />
       </head>
       <body
         id="layout-body"

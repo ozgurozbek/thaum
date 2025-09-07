@@ -1,12 +1,12 @@
 import { Metadata } from "next";
-import CalendarContent from "@/components/calendar/CalendarContent";
+import CalendarAltContent from "@/components/calendar/CalendarAltContent";
 
 export const metadata: Metadata = {
   title: "Calendar",
   description:
-    "Explore the unique calendar system of Teothe, detailing moon phases, holidays, and session notes providing rich insight on what happened on our adventures in our Calendar section.",
+    "Calendar of Thaum, detailed moon phases and holidays.",
 };
 
 export default function CalendarPage() {
-  return <CalendarContent />;
+  return <CalendarAltContent />;
 }

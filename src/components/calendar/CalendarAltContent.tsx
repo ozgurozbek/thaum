@@ -64,7 +64,7 @@ function GetAPICalendar() {
 }
 
 const CalendarPage: React.FC = () => {
-  const [monthName, setMonthName] = useState<string>("");
+  const [monthName, setMonthName] = useState<string>("Buiborn");
 
   const monthItems: MenuProps["items"] = calendarData.months.map((m) => ({ label: m, key: m }));
 

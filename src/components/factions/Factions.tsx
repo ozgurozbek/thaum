@@ -58,7 +58,7 @@ export default function Faction({
         <div className="absolute bottom-0 my-4">
           <Tooltip
             placement="left"
-            color="#630436"
+            color="#d5ad32"
             title={descriptionProps.factionType}
           >
             <Avatar

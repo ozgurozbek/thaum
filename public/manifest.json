@@ -1,9 +1,9 @@
 {
-  "name": "Teothe",
-  "short_name": "Teothe",
+  "name": "Thaum",
+  "short_name": "Thaum",
   "start_url": "/",
-  "background_color": "#630436",
-  "theme_color": "#630436",
+  "background_color": "#d5ad32",
+  "theme_color": "#d5ad32",
   "display": "standalone",
   "icons": [
     {

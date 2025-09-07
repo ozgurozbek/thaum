@@ -122,39 +122,9 @@ export default function Navbar() {
 
   const menuItems: MenuItem[] = [
     getItem("Common Lore", "1", "common-lore", getIcon("CommonLore")),
-    getItem("Deities", "3", "deities", getIcon("Deities")),
-    getItem("Species", "4", "species", getIcon("Species")),
     getItem("Factions", "19", "factions", getIcon("Factions")),
-    getItem("Library", "6", "library", getIcon("Library")),
-    getItem("Tables", "5", "tables", getIcon("Tables")),
     getItem("Map Overlay", "10", "map-overlay", getIcon("MapOverlay")),
     getItem("Calendar", "12", "calendar", getIcon("Calendar")),
-    getItem("Codex", "18", "codex", getIcon("Codex")),
-    getItem("DM's Works ▼", "-2", undefined, getIcon("DMworks"), undefined, [
-      getItem("Planes", "2", "planes", getIcon("Locations")),
-      getItem("Tools", "8", "tools", getIcon("Tools")),
-      getItem("Pricing", "7", "pricing", getIcon("Pricing")),
-      getItem("Homebrews", "9", "homebrews", getIcon("Homebrews")),
-      getItem("Map Legend", "11", "map-legend", getIcon("MapLegend")),
-      getItem("Languages", "13", "languages", getIcon("Languages")),
-      getItem(
-        "Calculate Trade",
-        "17",
-        "calculate-trade",
-        getIcon("ResourceValueCalculator")
-      ),
-      getItem("Achievements", "16", "achievements", getIcon("Achievements")),
-    ]),
-    getItem("Generators ▼", "-1", undefined, getIcon("Generators"), undefined, [
-      getItem(
-        "Quest Idea",
-        "14",
-        "generators/quest-idea",
-        getIcon("QuickIdea")
-      ),
-      getItem("Quick NPC", "15", "generators/quick-npc", getIcon("QuickNPC")),
-      getItem("Teothe Translator", "20", "generators/translator", getIcon("Translator")),
-    ]),
   ];
 
   return (
@@ -162,8 +132,8 @@ export default function Navbar() {
       {/* Logo */}
       <Link href={"/"} onClick={() => setselectedKeys([])}>
         <Image
-          src="/teothe3K.png"
-          alt="Teothe Icon"
+          src="/thaum.png"
+          alt="Thaum Icon"
           style={{ width: "120px", padding: "4px", marginTop: "0.5rem" }}
           preview={false}
         />
@@ -197,7 +167,7 @@ export default function Navbar() {
         closable={true}
         onClose={toggleDrawer}
         open={isDrawerVisible}
-        styles={{ body: { padding:0, backgroundColor:"#090d12" }, header: { backgroundColor:"#630436"}}}
+        styles={{ body: { padding:0, backgroundColor:"#090d12" }, header: { backgroundColor:"#d5ad32"}}}
       >
         <Menu
           onClick={(e) => {

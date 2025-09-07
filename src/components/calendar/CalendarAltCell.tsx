@@ -25,7 +25,7 @@ export default function CalendarCell({
   if (cellProps.holiday) {
     for (let i = 0; i < cellProps.holiday.length; i++) {
       holidayList.push(
-        <div className="text-pink-600 w-full italic">
+        <div className="w-full italic">
           <span title={cellProps.holiday[i].split(", ")[1]}>
             {cellProps.holiday[i].split(", ")[0]}
           </span>

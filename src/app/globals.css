@@ -13,12 +13,12 @@
 
   /* Handle */
   .no-scrollbar::-webkit-scrollbar-thumb {
-    background: #630436;
+    background: #d5ad32;
   }
 
   /* Handle on hover */
   .no-scrollbar::-webkit-scrollbar-thumb:hover {
-    background: #630436;
+    background: #d5ad32;
   }
 }
 
@@ -57,14 +57,14 @@ li:active,
 .ant-switch-checked,
 .ant-skeleton-title,
 .ant-skeleton-paragraph > li {
-  background-color: #630436 !important;
+  background-color: #d5ad32 !important;
 }
 .ant-menu > li:not(.ant-menu-item-selected).ant-menu-item:hover {
   background: rgb(9, 13, 18) !important;
   background: linear-gradient(
     180deg,
     rgba(9, 13, 18, 1) 70%,
-    rgba(99, 4, 54, 1) 100%
+    rgba(213, 173, 50, 1) 100%
   ) !important;
 }
 .ant-menu-item-selected {
@@ -72,14 +72,14 @@ li:active,
   background: linear-gradient(
     180deg,
     rgba(9, 13, 18, 1) 60%,
-    rgba(99, 4, 54, 1) 90%
+    rgba(213, 173, 50, 1) 90%
   ) !important;
 }
 h1,
 h2,
 h3 {
   color: white !important;
-  text-shadow: 0 0 8px #630436, 0 0 8px #630436, 0 0 8px #630436;
+  text-shadow: 0 0 8px #d5ad32, 0 0 8px #d5ad32, 0 0 8px #d5ad32;
 }
 .ant-card-body {
   color: white !important;
@@ -91,11 +91,11 @@ h3 {
 .ant-input,
 .ant-input-number {
   color: white !important;
-  border-color: #630436 !important;
-  background-color: rgba(99, 4, 54, 0.2) !important;
+  border-color: #d5ad32 !important;
+  background-color: rgba(213, 173, 50, 0.2) !important;
 }
 footer > a {
-  color: #630436 !important;
+  color: #d5ad32 !important;
 }
 .ant-empty-description,
 .ant-input-number-input {
@@ -107,17 +107,17 @@ footer > a {
 }
 .ant-table-cell-row-hover {
   color: white !important;
-  background-color: #630436 !important;
+  background-color: #d5ad32 !important;
 }
 .ant-input-group-addon,
 .ant-input-number-group-addon {
   color: white !important;
-  background-color: #630436 !important;
-  border-color: #630436 !important;
+  background-color: #d5ad32 !important;
+  border-color: #d5ad32 !important;
 }
 .ant-menu-dark.ant-menu-horizontal >.ant-menu-submenu-selected,
 ::selection {
-  background: #30011a;
+  background: #695516;
   color: white;
 }
 .ant-table-thead th {
@@ -130,8 +130,8 @@ footer > a {
 }
 
 .ant-checkbox:hover .ant-checkbox-inner {
-  background-color: #30011a !important;
-  border-color: #30011a !important;
+  background-color: #695516 !important;
+  border-color: #695516 !important;
 }
 
 .ant-checkbox-checked .ant-checkbox-inner {

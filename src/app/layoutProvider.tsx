@@ -61,7 +61,7 @@ export default function RootLayoutProvider({
           {children}
         </Content>
         <Footer style={{ textAlign: "center" }}>
-          Teothe, Teothe3K, their information, their documents and the TTRPG
+          Thaum, Teothe, Teothe3K, their information, their documents and the TTRPG
           content is provided under the{" "}
           <a
             target="_blank"
@@ -110,13 +110,13 @@ export default function RootLayoutProvider({
           . 2016-2024.
         </Footer>
         <div
-          className="w-12 h-12 rounded-full bg-[#630436] hover:bg-[#30011a] fixed bottom-4 right-4 transition-all flex items-center justify-center text-4xl"
+          className="w-12 h-12 rounded-full bg-[#d5ad32] hover:bg-[#695516] fixed bottom-4 right-4 transition-all flex items-center justify-center text-4xl"
           onClick={goUp}
         >
           <CaretUpOutlined />
         </div>
         <div
-          className="w-12 h-12 rounded-full bg-[#630436] hover:bg-[#30011a] fixed bottom-20 right-4 transition-all flex items-center justify-center text-3xl"
+          className="w-12 h-12 rounded-full bg-[#d5ad32] hover:bg-[#695516] fixed bottom-20 right-4 transition-all flex items-center justify-center text-3xl"
           onClick={copyToClipboard}
         >
           <CopyOutlined />
