@@ -70,7 +70,7 @@ const factionsData: DataType[] = [
   "factionEnemies": [],
   "factionAllies": ["Black Scripture","Artificer's Union"],
   "factionDetail": [
-    "They preserve whatever was left regarding Ancients of Teothe, mostly vague information from that time.",
+    "They preserve whatever was left regarding Ancients of Thaum, mostly vague information from that time.",
     "Formed after Sivirron Paracix's guide and within the Blue Era."
   ],
   "factionHQ": "",
@@ -84,7 +84,7 @@ const factionsData: DataType[] = [
   "factionAllies": ["Sapphire Sanctum"],
   "factionDetail": [
     "The magical body governing the plane by seeking order between all magic and magic casters. Their greatest feat was being on the winning side of the Mages' Uprising, also known as the Mages' Crisis. Consists of two divisions: Arcanum (above ground) and Tybalum (below ground).",
-    "Arcanum often interfere with other planes of existence if actions there could affect Teothe.",
+    "Arcanum often interfere with other planes of existence if actions there could affect Thaum.",
     "Owns the world's largest magic academy located on the island of Fei, near Konark.",
   ],
   "factionHQ": "Konark",
@@ -358,12 +358,12 @@ function AllFactions() {
 export default function FactionsContent() {
   return (
     <section>
-      <GetCrumbs path="Teothe,Factions" />
+      <GetCrumbs path="Thaum,Factions" />
       <Card bordered={false} className="w-full">
         <SimpleContent
           contentProps={{
-            title: "Factions of Teothe",
-            text: ["An overview of the various factions in the world of Teothe."],
+            title: "Factions of Thaum",
+            text: ["An overview of the various factions in the world of Thaum."],
           }}
         />
         <Divider />

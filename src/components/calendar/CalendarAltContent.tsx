@@ -73,7 +73,7 @@ const CalendarPage: React.FC = () => {
 
   return (
     <section>
-      <GetCrumbs path={"Teothe,Calendar"} />
+      <GetCrumbs path={"Thaum,Calendar"} />
       <Card bordered={false} className="w-full">
         <Space className="mb-4 flex flex-wrap">
           <div>
