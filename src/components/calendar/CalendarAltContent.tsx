@@ -20,7 +20,7 @@ function GetAPICalendar() {
   const data = {
     tableDescription: {
       description:
-        "Every day is 24 hours. In total there are 384 days.",
+        "Every day is 24 hours. In total there are 384 days. There is no set concept of weeks, but days are grouped by 12s, so to refer a 4 day spanning time one might say 'thirdling' or to 6, 'halfling', 3 'quarterling' and 12 'a full ling', which makes the word ling treated as a unit of time. The seasons are slightly more hectic compared to Teothe, as Thaum has 4 moons. Windburn is the season of tornados and storms, Scorchphase is the season of boiling seas, Charmfall is the time in which all 4 moons align for a short while and it's seen holy due to its magical amplifications, Mirefall is the time this alignment ends and causes extreme rainfall characterised by the dark colour of the droplets. Floodwane is a season where rivers overflows and coasts disappear, and lastly Frostclamp, the season of permafrost and glaciation.",
       columns: ["month", "name", "season"],
       tabName: "calendar",
     },
