@@ -66,7 +66,7 @@ const factionsData: DataType[] = [
   "factionAliases": [],
   "factionDeity": "Ayrugcumoak",
   "factionEnemies": [],
-  "factionAllies": ["Black Scripture","Artificer's Union"],
+  "factionAllies": ["Black Scripture"],
   "factionDetail": [
     "They try to protect artifacts, buildings and such related to Ancients of Thaum. It's a rumour that people actually gamble within the guild...","They'd entertain the idea of an ancient curse on the land, but it is a quest to explore and research, which nobody fully commits to."
   ],
@@ -126,7 +126,7 @@ const factionsData: DataType[] = [
   "factionAliases": [],
   "factionDeity": "",
   "factionEnemies": [],
-  "factionAllies": ["Guild of Dark Blood Witchers"],
+  "factionAllies": [],
   "factionDetail": [
     "ʞᎸʏɿƚᎸǫƚʜʏ! To apply, summon Ꮈɿʏᴎꙅƚʏꞁ."
   ],
@@ -150,7 +150,7 @@ const factionsData: DataType[] = [
   "factionAliases": [],
   "factionDeity": "Jenelius Londste",
   "factionEnemies": ["Paladin's Guild"],
-  "factionAllies": ["Arcanum Alliance","Sapphire Sanctum"],
+  "factionAllies": ["Sapphire Sanctum"],
   "factionDetail": [
     "A group devoted to carrying diplomatic business. They once aided in defending major strongholds, especially within Elemental Planes. They have magnificent libraries and lawyers.","Now they are zealots of a goddess of determination, driven by obsession and willing to bend reality itself to achieve her will."
   ],
@@ -161,7 +161,7 @@ const factionsData: DataType[] = [
   "factionName": "Adamantium Concordat",
   "factionAliases": ["Paladin's Guild"],
   "factionDeity": "Yr'snn",
-  "factionEnemies": ["Arcanum Alliance"],
+  "factionEnemies": [],
   "factionAllies": ["Adventurer's Guild"],
   "factionDetail": [
     "An order of paladins of different oaths and creeds. They hunt werebeasts and ignore the Auriel Corps. Members gain rank by completing trials that test skill and faith. Completing these trials grants Oathbound Boons, temporary or permanent abilities such as enhanced strength, resistance to curses, or sacred shouts that can stun or repel foes."
@@ -186,7 +186,7 @@ const factionsData: DataType[] = [
   "factionAliases": [],
   "factionDeity": "Lcaoc",
   "factionEnemies": [],
-  "factionAllies": ["Arcanum Alliance"],
+  "factionAllies": [],
   "factionDetail": [
     "A court for international and extraplanar criminals, especially those whose crimes are magical in nature.",
     "They have enforcers rated as Grandmaster, International Master, National Master, and Master. Members can move from the court to being an enforcer, but not the other way around.",
