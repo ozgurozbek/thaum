@@ -52,14 +52,12 @@ const factionsData: DataType[] = [
   "factionName": "Adventurer's Guild",
   "factionAliases": ["Adventurer's League"],
   "factionDeity": "Radu",
-  "factionEnemies": ["Inthizilelgghinn","Obsidian Order"],
-  "factionAllies": ["Meadowcrew","Warrior's Guild"],
+  "factionEnemies": ["Broken Aces"],
+  "factionAllies": [],
   "factionDetail": [
-    "A common adventurer's go-to place for new beginnings. Full of tasks and adventures, sometimes taking place in bars and inns, sometimes in castles.",
-    "Quest difficulty and rewards are categorized by stars, from No star or ⭐ to 🌟🌟🌟.",
-    "Rewards include gold, bonuses for timeliness, challenges, and inconvenience. Guild takes a small cut.",
+    "Once the starting point for countless adventurers, the guild has long since lost its reputation. The notice board that was once overflowing with tasks and quests from taverns, inns, and castles now stands mostly bare. Quests, if any appear at all, are still marked by their old star system from none to three, but the rewards are meager and the guild still insists on taking its cut. With few adventurers left to answer the call, the once-bustling hall now echoes with silence.","Operates the Gladiator arena as well. Square ring, pink-green-red flowers and they are covered in blood. Installed a water fountain with a dark red liquid in. People use it to beat their opponents as an environmental tool. Rich folk use this for betting, usually located in the 4 pillars. Is surrounded by theater-like seating. People usually like this interaction."
   ],
-  "factionHQ": "Arikna",
+  "factionHQ": "",
   "factionKey": 1
 },
 {
@@ -70,37 +68,22 @@ const factionsData: DataType[] = [
   "factionEnemies": [],
   "factionAllies": ["Black Scripture","Artificer's Union"],
   "factionDetail": [
-    "They preserve whatever was left regarding Ancients of Thaum, mostly vague information from that time.",
-    "Formed after Sivirron Paracix's guide and within the Blue Era."
+    "They try to protect artifacts, buildings and such related to Ancients of Thaum. It's a rumour that people actually gamble within the guild...","They'd entertain the idea of an ancient curse on the land, but it is a quest to explore and research, which nobody fully commits to."
   ],
   "factionHQ": "",
   "factionKey": 2
-},{
-  "factionType": FactionTypes.Enforcement,
-  "factionName": "Arcanum Alliance",
-  "factionAliases": ["Arcanum","Tybalum"],
-  "factionDeity": "Wusor",
-  "factionEnemies": ["Pearl Plunderers"],
-  "factionAllies": ["Sapphire Sanctum"],
-  "factionDetail": [
-    "The magical body governing the plane by seeking order between all magic and magic casters. Their greatest feat was being on the winning side of the Mages' Uprising, also known as the Mages' Crisis. Consists of two divisions: Arcanum (above ground) and Tybalum (below ground).",
-    "Arcanum often interfere with other planes of existence if actions there could affect Thaum.",
-    "Owns the world's largest magic academy located on the island of Fei, near Konark.",
-  ],
-  "factionHQ": "Konark",
-  "factionKey": 3
 },{
   "factionType": FactionTypes.Professional,
   "factionName": "Artisan's Guild",
   "factionAliases": [],
   "factionDeity": "Tsahnrad",
   "factionEnemies": ["Thieve's Guild"],
-  "factionAllies": ["Artificer's Union","Brewer's Guild"],
+  "factionAllies": ["Farmer's Guild"],
   "factionDetail": [
-    "A guild of artisans and craftsmen, which also has many contacts to vast resources and royalty."
+    "A guild of artisans and craftsmen."
   ],
   "factionHQ": "",
-  "factionKey": 4
+  "factionKey": 3
 },{
   "factionType": FactionTypes.Peacekeeping,
   "factionName": "Auriel Corps",
@@ -111,8 +94,8 @@ const factionsData: DataType[] = [
   "factionDetail": [
     "Distributes Thauman Tokens and provides safe passage out of Thaum. Encourages gambling."
   ],
-  "factionHQ": "Mendes, Alax",
-  "factionKey": 5
+  "factionHQ": "Mendes, Akuzar",
+  "factionKey": 4
 },{
   "factionType": FactionTypes.Adventuring,
   "factionName": "Black Scripture",
@@ -121,23 +104,22 @@ const factionsData: DataType[] = [
   "factionEnemies": ["Sapphire Sanctum"],
   "factionAllies": [],
   "factionDetail": [
-    "Responsible for old, very antique magical items, most of which are cursed.",
-    "They have no leader worthy, and members are often missing. Black Scripture cultists, however, still wander around. Cultists are mostly leeches infusing others' thoughts."
+    "Once keepers of antique magical relics, the group is now thoroughly corrupted, their collection steeped in curses and forbidden power. A single leader has risen to command them, twisting the remnants of their order into a dangerous force. Their members, no longer scattered or absent, now actively hunt Auriel Corps trade routes, preying on shipments and bleeding the guild of its lifeblood."
   ],
   "factionHQ": "",
-  "factionKey": 6
+  "factionKey": 5
 },{
   "factionType": FactionTypes.Rebel,
   "factionName": "Broken Aces",
-  "factionAliases": [],
+  "factionAliases": ["Thieve's Guild"],
   "factionDeity": "",
   "factionEnemies": [],
   "factionAllies": [],
   "factionDetail": [
-    "A guild for that acts like a home for all those that cheat, trick and con. Members specialize in gaslighting and card tricks."
+    "In an old theater by the docks, this guild serves as a home for cheats, tricksters, and con artists. Loaded dice, marked cards, and gaslighting are their craft, and only the most persistent ever gain entry."
   ],
-  "factionHQ": "",
-  "factionKey": 7
+  "factionHQ": "Akuzar",
+  "factionKey": 6
 },{
   "factionType": FactionTypes.Secret,
   "factionName": "Guild of Afternoon Tea",
@@ -149,7 +131,7 @@ const factionsData: DataType[] = [
     "ʞᎸʏɿƚᎸǫƚʜʏ! To apply, summon Ꮈɿʏᴎꙅƚʏꞁ."
   ],
   "factionHQ": "The Abyss",
-  "factionKey": 10
+  "factionKey": 7
 },{
   "factionType": FactionTypes.Weave,
   "factionName": "Mage's Guild",
@@ -158,48 +140,46 @@ const factionsData: DataType[] = [
   "factionEnemies": ["Pearl Plunderers"],
   "factionAllies": [],
   "factionDetail": [
-    "Nowhere near its old glory; the reformed Mage's Guild has no HQ. Many mages miss their former demiplane HQ, but none are strong enough to relocate or create another.",
-    "After many political issues and the murder of mages, they caused a coup killing many world leaders. Over time, this oppression was stopped."
+    "Mages work alone in the city, most of them Elves. After the plane’s enslavement, they pledged to world leaders and serve cities through binding contracts, though some wander upside-down streets or talk to shadows instead of following rules."
   ],
-  "factionHQ": "",
-  "factionKey": 14
+  "factionHQ": "Wahl",
+  "factionKey": 8
 },{
   "factionType": FactionTypes.Political,
   "factionName": "Opal Observatory",
   "factionAliases": [],
-  "factionDeity": "",
-  "factionEnemies": [],
+  "factionDeity": "Jenelius Londste",
+  "factionEnemies": ["Paladin's Guild"],
   "factionAllies": ["Arcanum Alliance","Sapphire Sanctum"],
   "factionDetail": [
-    "Group of people who carry diplomatic business to elemental planes, whom helped defend the Major Cities of Feianthe during the Mages' Crisis."
+    "A group devoted to carrying diplomatic business. They once aided in defending major strongholds, especially within Elemental Planes. They have magnificent libraries and lawyers.","Now they are zealots of a goddess of determination, driven by obsession and willing to bend reality itself to achieve her will."
   ],
-  "factionHQ": "City of Brass",
-  "factionKey": 18
+  "factionHQ": "Alax",
+  "factionKey": 9
 },{
   "factionType": FactionTypes.Crusader,
   "factionName": "Adamantium Concordat",
   "factionAliases": ["Paladin's Guild"],
   "factionDeity": "Yr'snn",
-  "factionEnemies": ["Guild of Dark Blood Witchers"],
-  "factionAllies": ["Adventurer's Guild","Slayer's Take"],
+  "factionEnemies": ["Arcanum Alliance"],
+  "factionAllies": ["Adventurer's Guild"],
   "factionDetail": [
-    "An order of paladins of different oaths and creeds.",
-    "Membership is earned by recounting your deeds rather than entering a physical place. Guild ranks go up to 3 marks; 4 marks are considered extraordinary."
+    "An order of paladins of different oaths and creeds. They hunt werebeasts and ignore the Auriel Corps. Members gain rank by completing trials that test skill and faith. Completing these trials grants Oathbound Boons, temporary or permanent abilities such as enhanced strength, resistance to curses, or sacred shouts that can stun or repel foes."
   ],
-  "factionHQ": "Fex",
-  "factionKey": 19
+  "factionHQ": "Alax",
+  "factionKey": 10
 },{
   "factionType": FactionTypes.Weave,
   "factionName": "Pearl Plunderers",
   "factionAliases": [],
   "factionDeity": "",
-  "factionEnemies": ["Arcanum Alliance","Mage's Guild","Thieve's Guild"],
+  "factionEnemies": ["Thieve's Guild"],
   "factionAllies": [],
   "factionDetail": [
-    "A battle mage army that forms weapons out of pure magical energy, drawing from various planar sources. Some believe they were the underlying cause of the Mages' Crisis."
+    "A battle mage army that forms weapons out of pure magical energy, drawing from various planar sources. They haven't been seen in Thaum for over 400 years."
   ],
   "factionHQ": "Plane of Choll",
-  "factionKey": 20
+  "factionKey": 11
 },{
   "factionType": FactionTypes.Peacekeeping,
   "factionName": "Sapphire Sanctum",
@@ -213,117 +193,116 @@ const factionsData: DataType[] = [
     "To join, you must complete 3 mundane quests that aren't very real. After completing the quests, you gain a rating and start as a Master."
   ],
   "factionHQ": "",
-  "factionKey": 22
+  "factionKey": 12
 },{
-  "factionType": FactionTypes.Criminal,
+  "factionType": FactionTypes.Secret,
   "factionName": "Thieve's Guild",
   "factionAliases": [],
   "factionDeity": "Xua",
-  "factionEnemies": ["Sapphire Sanctum","Pearl Plunderers"],
-  "factionAllies": ["Obsidian Order","Inthizilelgghinn"],
+  "factionEnemies": ["Sapphire Sanctum","Opal Observatory"],
+  "factionAllies": ["Adventurer's Guild"],
   "factionDetail": [
-    "A secret organization with branches in nearly all towns, cities, and villages. Led by a female human named Katarina.",
-    "Often hired for information rather than for stealing and selling goods."
+    "A secret organization with branches in nearly all towns, cities, and villages. It is known that they are being run by a 'book'.",
+    "Usually, people who are seeking information pay this organization instead of the organization stealing things and selling them."
   ],
-  "factionHQ": "Oywego",
-  "factionKey": 27
+  "factionHQ": "Loutra",
+  "factionKey": 13
 },{
   "factionType": FactionTypes.Tribe,
   "factionName": "Wonderers of Du'Ora",
-  "factionAliases": ["N'Tiora Folk","Druids"],
-  "factionDeity": "Cyaxo",
-  "factionEnemies": ["Crimson Caravan Company"],
-  "factionAllies": ["Slayer's Take"],
+  "factionAliases": ["Druids","Du'O'RATs"],
+  "factionDeity": "Uke",
+  "factionEnemies": ["Auriel Corps"],
+  "factionAllies": [],
   "factionDetail": [
-    "Guild for Druids who belong to a circle and have ventured to Du'Ora at least once. Members must agree with the guild's views on pollution, destruction, and preservation.",
-    "Includes branches such as the Kaio branch."
+    "Guild for Druids who belong to a circle and have ventured to Du'Ora at least once. Members must agree with the guild's views on pollution, destruction, and preservation."
   ],
-  "factionHQ": "N'Tiora Tree",
-  "factionKey": 30
+  "factionHQ": "",
+  "factionKey": 14
 },{
-  "factionType": FactionTypes.Tribe,
+  "factionType": FactionTypes.Merchant,
   "factionName": "Farmer's Guild",
   "factionAliases": [],
   "factionDeity": "",
-  "factionEnemies": [],
-  "factionAllies": [],
+  "factionEnemies": ["Thieve's Guild"],
+  "factionAllies": ["Auriel Corps","Wonderers of Du'Ora"],
   "factionDetail": [
-    ""
+    "A guild of farmers and agrarians that cultivates the land and organizes harvests across the region. Some members hold secret contracts with the Auriel Corps, raising crops on demand for high prices. Competitions are held regularly to select new members for these elite contracts, offering ambitious farmers a chance to gain influence and potentially earn the coveted Vessel title from the Auriel Corps."
   ],
-  "factionHQ": "",
-  "factionKey": 30
+  "factionHQ": "Mendes",
+  "factionKey": 15
 },{
-  "factionType": FactionTypes.Tribe,
+  "factionType": FactionTypes.Mercenary,
   "factionName": "Gang of Ortos",
   "factionAliases": [],
   "factionDeity": "",
   "factionEnemies": [],
   "factionAllies": [],
   "factionDetail": [
-    ""
+    "The Gang of Ortos is a notorious, colorful faction rooted in the streets and alleys of the cities of Thaum. They operate in the shadows, engaging in smuggling, protection rackets, and daring street challenges, all while maintaining a humorous and ironic outlook on life."
   ],
   "factionHQ": "",
-  "factionKey": 30
+  "factionKey": 16
 },{
-  "factionType": FactionTypes.Tribe,
+  "factionType": FactionTypes.Psionic,
   "factionName": "High Union",
   "factionAliases": [],
-  "factionDeity": "",
-  "factionEnemies": [],
+  "factionDeity": "Naahv",
+  "factionEnemies": ["Auriel Corps"],
   "factionAllies": [],
   "factionDetail": [
-    ""
+    "A secretive guild of psions and mindwalkers, the High Union opposes the Auriel Corps at every turn. Its members wield mental powers to manipulate, infiltrate, and destabilize, preferring subtle strikes over open conflict. They specialize in destroying Thauman Tokens, a rare currency that traps souls, striking at the Corps' power at its source.","Recruitment favors those with rare psionic talent, and internal advancement is earned through demonstrations of cunning, mastery over the mind, and successful missions."
   ],
-  "factionHQ": "",
-  "factionKey": 30
+  "factionHQ": "Second Moon of Thaum, Selvia",
+  "factionKey": 17
 },{
-  "factionType": FactionTypes.Tribe,
+  "factionType": FactionTypes.Bandits,
   "factionName": "Karazhan Bandits",
   "factionAliases": [],
   "factionDeity": "",
   "factionEnemies": [],
   "factionAllies": [],
   "factionDetail": [
-    ""
+    "The Karazhan Bandits were a powerful bandit group that operated on the north east coasts and are the most successful and notorious bandits of the area. It was named for and led by the brothers Sulam and Draven Karazhan."
   ],
   "factionHQ": "",
-  "factionKey": 30
+  "factionKey": 18
 },{
-  "factionType": FactionTypes.Tribe,
-  "factionName": "Malugans",
+  "factionType": FactionTypes.Fleet,
+  "factionName": "Manugans",
   "factionAliases": [],
   "factionDeity": "",
   "factionEnemies": [],
   "factionAllies": [],
   "factionDetail": [
-    ""
+    "A ruthless faction from the Manuga Islands. Pirates, mercenaries, and warriors who value strength, loyalty, and spectacle. Their leaders command through fear and charisma, and they strike unpredictably with a mix of skill, supernatural power, and daring raids."
   ],
-  "factionHQ": "",
-  "factionKey": 30
+  "factionHQ": "Manuga",
+  "factionKey": 19
 },{
-  "factionType": FactionTypes.Tribe,
+  "factionType": FactionTypes.Rebel,
   "factionName": "N'landroshien",
   "factionAliases": [],
-  "factionDeity": "",
+  "factionDeity": "Fexyiaf",
   "factionEnemies": [],
   "factionAllies": [],
   "factionDetail": [
-    ""
+    "A northern cult of humans, elves, and dwarves that raided orc settlements. Leaders wore black-and-red robes and led racist chants. Members killed male orcs and displayed their heads on stakes."
   ],
-  "factionHQ": "",
-  "factionKey": 30
+  "factionHQ": "Loutra Forests",
+  "factionKey": 20
 },{
   "factionType": FactionTypes.Tribe,
   "factionName": "Silver Spine Rangers",
   "factionAliases": [],
-  "factionDeity": "",
-  "factionEnemies": [],
-  "factionAllies": [],
+  "factionDeity": "Ehx",
+  "factionEnemies": ["Wonderers of Du'Ora"],
+  "factionAllies": ["Adventurer's Guild"],
   "factionDetail": [
-    ""
+    "Operating beneath a clock tower in the northeast, the Silver Rangers Guild trains scouts, trackers, and survivalists. Members specialize in forest lore, tracking, and setting traps. Admission requires surviving a trial in the city’s sewers, testing resourcefulness and endurance. The guild maintains a chilly rivalry with nearby druids, often clashing over territory and methods, and its members value cunning, patience, and precision above brute strength."
   ],
-  "factionHQ": "",
-  "factionKey": 30
+  "factionHQ": "Akuzar",
+  "factionKey": 21
 }
 ];
 
